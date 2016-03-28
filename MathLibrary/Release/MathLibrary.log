@@ -1,0 +1,15 @@
+﻿Build started 2/1/2016 11:43:05 AM.
+     1>Project "C:\Users\Benjamin.Mecklenburg\Documents\Visual Studio 2015\Projects\C++ Projects\Releases\MathLibrary\MathLibrary\MathLibrary.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\MathLibrary.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp vector2.cpp
+         Main.cpp
+         vector2.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\Benjamin.Mecklenburg\Documents\Visual Studio 2015\Projects\C++ Projects\Releases\MathLibrary\Release\MathLibrary.lib" /NOLOGO /LTCG Release\Main.obj
+         Release\vector2.obj
+         MathLibrary.vcxproj -> C:\Users\Benjamin.Mecklenburg\Documents\Visual Studio 2015\Projects\C++ Projects\Releases\MathLibrary\Release\MathLibrary.lib
+     1>Done Building Project "C:\Users\Benjamin.Mecklenburg\Documents\Visual Studio 2015\Projects\C++ Projects\Releases\MathLibrary\MathLibrary\MathLibrary.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.48

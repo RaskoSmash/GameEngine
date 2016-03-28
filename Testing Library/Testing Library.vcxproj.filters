@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Entity Components">
+      <UniqueIdentifier>{1f176792-a0c4-4962-854e-cb425f20c666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System Components">
+      <UniqueIdentifier>{f2aa2163-9fe1-49c0-9077-ceb8e78367ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Micro Systems">
+      <UniqueIdentifier>{616c9aff-1cd9-417c-a3b9-8103cdb54da9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity Components">
+      <UniqueIdentifier>{270548a8-cc09-428a-88fd-1e6d17cc88a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System Components">
+      <UniqueIdentifier>{c5698b4b-c7e9-4f32-88db-34efbca382b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Micro Systems">
+      <UniqueIdentifier>{5f0e0a08-e61b-4b34-a11e-d07757ac15cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Source Files\Entity Components</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>Source Files\Entity Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\Entity Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\System Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Source Files\System Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\System Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GCData.cpp">
+      <Filter>Source Files\System Components</Filter>
+    </ClCompile>
+    <ClCompile Include="renderShapes.cpp">
+      <Filter>Source Files\Entity Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets.cpp">
+      <Filter>Source Files\System Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sfwdraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Health.h">
+      <Filter>Header Files\Entity Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Header Files\Entity Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files\Entity Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>Header Files\Entity Components</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Header Files\Entity Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Stamina.h">
+      <Filter>Header Files\Entity Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files\Entity Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GCData.h">
+      <Filter>Header Files\System Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\System Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Lifecycle.h">
+      <Filter>Header Files\Entity Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Header Files\System Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\System Components</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBodyDynamics.h">
+      <Filter>Header Files\Micro Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="renderShapes.h">
+      <Filter>Header Files\Entity Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets.h">
+      <Filter>Header Files\System Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDetection.h">
+      <Filter>Header Files\Micro Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicResolution.h">
+      <Filter>Header Files\Micro Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="LifecycleSystem.h">
+      <Filter>Header Files\Micro Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerControllerSystem.h">
+      <Filter>Header Files\Micro Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>Header Files\Micro Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticResolution.h">
+      <Filter>Header Files\Micro Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthSystem.h">
+      <Filter>Header Files\Micro Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="StaminaSystem.h">
+      <Filter>Header Files\Micro Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="BenEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Header Files\Micro Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Header Files\Micro Systems</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

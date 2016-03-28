@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathLibrary", "MathLibrary\MathLibrary.vcxproj", "{E1B1E165-0ABE-4555-B068-CA82F3016F28}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Testing Library", "Testing Library\Testing Library.vcxproj", "{2925BD2A-18DC-4F29-916B-3EF657C6C6E8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E1B1E165-0ABE-4555-B068-CA82F3016F28} = {E1B1E165-0ABE-4555-B068-CA82F3016F28}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1B1E165-0ABE-4555-B068-CA82F3016F28}.Debug|x86.ActiveCfg = Debug|Win32
+		{E1B1E165-0ABE-4555-B068-CA82F3016F28}.Debug|x86.Build.0 = Debug|Win32
+		{E1B1E165-0ABE-4555-B068-CA82F3016F28}.Release|x86.ActiveCfg = Release|Win32
+		{E1B1E165-0ABE-4555-B068-CA82F3016F28}.Release|x86.Build.0 = Release|Win32
+		{2925BD2A-18DC-4F29-916B-3EF657C6C6E8}.Debug|x86.ActiveCfg = Debug|Win32
+		{2925BD2A-18DC-4F29-916B-3EF657C6C6E8}.Debug|x86.Build.0 = Debug|Win32
+		{2925BD2A-18DC-4F29-916B-3EF657C6C6E8}.Release|x86.ActiveCfg = Release|Win32
+		{2925BD2A-18DC-4F29-916B-3EF657C6C6E8}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
